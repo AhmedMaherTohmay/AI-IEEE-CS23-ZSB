@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:05,219
+Visuals can be used to efficiently communicate conclusions drawn from your analysis.
+
+2
+00:00:05,219 --> 00:00:07,604
+Note the labeling, color, size,
+
+3
+00:00:07,605 --> 00:00:09,945
+and data selection arguments for histograms,
+
+4
+00:00:09,945 --> 00:00:12,714
+bar charts, and pie charts in the following examples.
+
+5
+00:00:12,714 --> 00:00:15,210
+You can use them to customize your visualizations.
+

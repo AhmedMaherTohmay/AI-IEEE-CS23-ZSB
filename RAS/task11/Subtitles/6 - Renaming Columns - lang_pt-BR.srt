@@ -1,0 +1,97 @@
+1
+00:00:00,000 --> 00:00:03,356
+Para que a instrução anexada
+funcione direito,
+
+2
+00:00:03,390 --> 00:00:06,049
+precisamos renomear
+a coluna em red_df,
+
+3
+00:00:06,083 --> 00:00:09,036
+para que corresponda com o nome
+da coluna em white_df.
+
+4
+00:00:09,070 --> 00:00:11,315
+Para renomear as colunas
+da aula passada,
+
+5
+00:00:11,349 --> 00:00:14,054
+colocamos df.columns
+em uma nova lista.
+
+6
+00:00:14,088 --> 00:00:17,173
+Agora só precisamos mudar
+um dos rótulos da coluna.
+
+7
+00:00:17,207 --> 00:00:18,323
+Se tentarmos fazer isso
+
+8
+00:00:18,357 --> 00:00:22,097
+anexando um dos valores
+de df.columns desse jeito,
+
+9
+00:00:22,131 --> 00:00:24,310
+ele dá erro.
+
+10
+00:00:24,344 --> 00:00:27,227
+"O índice não suporta
+operações mutáveis."
+
+11
+00:00:27,261 --> 00:00:29,034
+Isso significa
+que não podemos
+
+12
+00:00:29,068 --> 00:00:31,245
+modificar o rótulo de array
+dessa coluna.
+
+13
+00:00:31,279 --> 00:00:33,126
+Como não podemos
+modificá-lo,
+
+14
+00:00:33,160 --> 00:00:36,115
+temos que mudar tudo
+para uma nova lista.
+
+15
+00:00:36,565 --> 00:00:38,258
+Isso funcionou,
+
+16
+00:00:38,292 --> 00:00:41,131
+mas parece trabalho demais
+para mudar o nome de uma coluna.
+
+17
+00:00:41,165 --> 00:00:44,240
+Podemos fazer algo melhor
+usando um método chamado "renomear".
+
+18
+00:00:44,274 --> 00:00:46,306
+Olhe na página
+Stack Overflow
+
+19
+00:00:46,340 --> 00:00:48,302
+e tente renomear as colunas
+com esse método
+
+20
+00:00:48,336 --> 00:00:50,507
+no Jupyter Notebook
+da próxima seção.
+

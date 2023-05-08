@@ -1,0 +1,144 @@
+1
+00:00:00,490 --> 00:00:03,148
+Vamos abrir os conjuntos de dados
+no Jupyter Notebook.
+
+2
+00:00:03,182 --> 00:00:05,166
+Fiz o download
+dos arquivos CSV
+
+3
+00:00:05,200 --> 00:00:07,951
+e coloquei na mesma pasta
+desse documento.
+
+4
+00:00:07,985 --> 00:00:09,866
+Assim como na última aula,
+
+5
+00:00:09,900 --> 00:00:12,526
+podemos ler o conjunto de dados
+com o read_csv do Pandas
+
+6
+00:00:12,560 --> 00:00:14,952
+usando o nome do arquivo
+como parâmetro.
+
+7
+00:00:16,012 --> 00:00:17,779
+O que está
+acontecendo aqui?
+
+8
+00:00:17,813 --> 00:00:19,996
+Todos os dados foram colocados
+em uma coluna,
+
+9
+00:00:20,030 --> 00:00:23,250
+e parece que os valores
+foram separados por ponto e vírgula.
+
+10
+00:00:23,284 --> 00:00:26,167
+Às vezes, arquivos CSV
+usam caracteres diferentes
+
+11
+00:00:26,201 --> 00:00:28,092
+para separar valores.
+
+12
+00:00:28,126 --> 00:00:29,602
+Podemos escolher
+o delimitador correto
+
+13
+00:00:29,636 --> 00:00:32,780
+configurando o parâmetro adicional
+no read_csv.
+
+14
+00:00:32,814 --> 00:00:35,664
+O padrão desse parâmetro
+é a vírgula,
+
+15
+00:00:35,698 --> 00:00:38,325
+por isso não precisamos
+especificá-lo sempre.
+
+16
+00:00:38,682 --> 00:00:39,766
+Legal.
+
+17
+00:00:39,800 --> 00:00:43,203
+É normal se confundir na 1ª vez
+que você lê um arquivo CSV.
+
+18
+00:00:43,237 --> 00:00:44,902
+Por exemplo,
+se você não soubesse
+
+19
+00:00:44,936 --> 00:00:47,509
+que o arquivo CSV
+não tem uma linha de cabeçalho,
+
+20
+00:00:47,543 --> 00:00:49,118
+você usaria de forma errada
+
+21
+00:00:49,152 --> 00:00:51,632
+os valores da 1ª linha
+como rótulos de coluna
+
+22
+00:00:51,666 --> 00:00:53,946
+e depois perceberia
+que precisa especificar parâmetros
+
+23
+00:00:53,980 --> 00:00:56,177
+para configurar os rótulos.
+
+24
+00:00:56,211 --> 00:00:59,178
+Ou você pode
+verificar o arquivo sozinho.
+
+25
+00:00:59,212 --> 00:01:02,538
+Um jeito de fazer isso
+é abri-lo em um editor de texto
+
+26
+00:01:02,572 --> 00:01:04,642
+ou programa de planilhas
+como o Google Sheets.
+
+27
+00:01:04,676 --> 00:01:06,639
+Mas se estiver trabalhando
+com muitos dados,
+
+28
+00:01:06,673 --> 00:01:09,593
+pode demorar para carregar
+ou o programa pode travar.
+
+29
+00:01:09,939 --> 00:01:11,137
+Nesse caso,
+
+30
+00:01:11,171 --> 00:01:13,700
+tentativa e erro no Pandas
+seria a melhor opção.
+

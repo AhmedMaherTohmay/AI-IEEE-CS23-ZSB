@@ -1,0 +1,166 @@
+1
+00:00:00,000 --> 00:00:02,104
+"Agrupar por" é uma
+das minhas funções favoritas
+
+2
+00:00:02,138 --> 00:00:03,435
+no Pandas.
+
+3
+00:00:03,469 --> 00:00:05,058
+Permite que você
+agrupe dados
+
+4
+00:00:05,092 --> 00:00:06,978
+e agregue informações
+sobre esses grupos
+
+5
+00:00:07,012 --> 00:00:09,747
+ou execute transformações
+específicas a um grupo.
+
+6
+00:00:09,781 --> 00:00:12,294
+Nessa seção, vamos focar
+em usar "agrupar por"
+
+7
+00:00:12,328 --> 00:00:13,468
+para ter
+estatísticas de resumo
+
+8
+00:00:13,502 --> 00:00:15,583
+sobre diferentes grupos
+em nossos dados.
+
+9
+00:00:15,617 --> 00:00:17,872
+Vamos abrir
+a estrutura de dados mesclada
+
+10
+00:00:17,906 --> 00:00:19,997
+sobre qualidade do vinho
+que criamos.
+
+11
+00:00:23,045 --> 00:00:25,704
+Nós aprendemos que podemos
+obter estatísticas de resumo
+
+12
+00:00:25,738 --> 00:00:28,842
+de todo o conjunto de dados
+com as funções "relatar" e "média".
+
+13
+00:00:28,876 --> 00:00:31,060
+Assim eu posso
+encontrar informações
+
+14
+00:00:31,094 --> 00:00:33,867
+como o pH médio de todas as amostras
+do conjunto de dados.
+
+15
+00:00:33,901 --> 00:00:35,750
+E se eu quisesse
+saber a média
+
+16
+00:00:35,784 --> 00:00:37,448
+para cada
+classificação de qualidade?
+
+17
+00:00:37,482 --> 00:00:39,514
+Por exemplo,
+a média do nível de pH
+
+18
+00:00:39,548 --> 00:00:42,469
+de todas as amostras
+com classificação de qualidade 7.
+
+19
+00:00:42,503 --> 00:00:44,019
+Podemos usar "agrupar por"
+
+20
+00:00:44,053 --> 00:00:46,548
+combinado com a função de média
+para fazer isso.
+
+21
+00:00:49,815 --> 00:00:51,994
+Assim podemos descobrir
+a média do nível de pH
+
+22
+00:00:52,028 --> 00:00:55,243
+de todas as amostras
+com classificação de qualidade 7.
+
+23
+00:00:55,277 --> 00:00:56,793
+Também podemos
+dividir o conjunto
+
+24
+00:00:56,827 --> 00:01:00,027
+em várias colunas para agrupar
+fazendo uma lista.
+
+25
+00:01:02,512 --> 00:01:07,022
+Temos as médias de todos os recursos
+agrupadas por qualidade e cor.
+
+26
+00:01:07,056 --> 00:01:09,949
+Podemos ver as médias separadas
+do nível de pH
+
+27
+00:01:09,983 --> 00:01:11,830
+de todas as amostras
+de tintos e de brancos
+
+28
+00:01:11,864 --> 00:01:13,677
+com qualidade 7.
+
+29
+00:01:13,711 --> 00:01:16,814
+Se você não quiser que
+qualidade e cor estejam no índice,
+
+30
+00:01:16,848 --> 00:01:19,288
+você pode mudar
+as_index para falso.
+
+31
+00:01:19,322 --> 00:01:22,794
+Se você só quiser uma das colunas,
+como a de pH,
+
+32
+00:01:22,828 --> 00:01:25,176
+você pode organizar os grupos
+assim.
+
+33
+00:01:26,229 --> 00:01:28,554
+A seguir, você vai aprender
+a agrupar e tirar conclusões
+
+34
+00:01:28,588 --> 00:01:29,833
+sobre o conjunto de dados.
+

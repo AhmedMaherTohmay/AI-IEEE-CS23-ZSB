@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:03,629
+Let's use descriptive statistics and visualizations to
+
+2
+00:00:03,629 --> 00:00:07,449
+address the question we posed with this cancer data earlier in the lesson.
+
+3
+00:00:07,450 --> 00:00:11,025
+Does the size of a tumor affect its malignancy?
+
+4
+00:00:11,025 --> 00:00:17,850
+For this, we'd ideally compare the sizes of benign tumors with those of malignant tumors.
+
+5
+00:00:17,850 --> 00:00:22,850
+We can use masks to select all rows in the data frame that were diagnosed as
+
+6
+00:00:22,850 --> 00:00:29,815
+malignant then all rows diagnosed as benign and put them in separate data frames.
+
+7
+00:00:29,815 --> 00:00:36,060
+First, let's create a new data frame called df_m that contains only malignant tumors.
+
+8
+00:00:36,060 --> 00:00:38,910
+Here's a breakdown of how we got this.
+
+9
+00:00:38,909 --> 00:00:42,299
+This part here, returns pandas series of booleans
+
+10
+00:00:42,299 --> 00:00:46,594
+indicating whether the value in the diagnosis columns is equal to M,
+
+11
+00:00:46,594 --> 00:00:49,439
+and indexing the original data frame with
+
+12
+00:00:49,439 --> 00:00:53,974
+this mask will return all rows where the value in mask is true.
+
+13
+00:00:53,975 --> 00:00:56,340
+In other words, where the diagnosis is
+
+14
+00:00:56,340 --> 00:01:01,465
+M. Now that we have all the malignant tumors together in a data frame,
+
+15
+00:01:01,465 --> 00:01:07,150
+let's see summary statistics about the area feature which offers a good metric for size.
+
+16
+00:01:07,150 --> 00:01:10,185
+Let's do the same for all the benign tumors.
+
+17
+00:01:10,185 --> 00:01:13,030
+We can use the mean to compare these.
+
+18
+00:01:13,030 --> 00:01:16,734
+Although summary statistics like the mean are helpful,
+
+19
+00:01:16,734 --> 00:01:19,549
+it would be nice to be able to compare the distributions of
+
+20
+00:01:19,549 --> 00:01:23,500
+the areas of malignant and benign tumors visually.
+
+21
+00:01:23,500 --> 00:01:26,599
+Let's see a simple example of using Matplotlib to
+
+22
+00:01:26,599 --> 00:01:30,469
+create histograms for both distributions on the same plot.
+
+23
+00:01:30,469 --> 00:01:33,840
+Don't worry about understanding this code right now.
+
+24
+00:01:33,840 --> 00:01:37,049
+We'll learn how to use Matplotlib in the next lesson.
+
+25
+00:01:37,049 --> 00:01:39,920
+This visual suggests that there is a difference between
+
+26
+00:01:39,920 --> 00:01:43,614
+the distribution of areas for benign and malignant tumors.
+
+27
+00:01:43,614 --> 00:01:47,119
+We don't yet have the tools to conclude that these two distributions are
+
+28
+00:01:47,120 --> 00:01:52,010
+different or whether the size definitely affects the tumor's malignancy.
+
+29
+00:01:52,010 --> 00:01:54,980
+However, we can observe from summary statistics and
+
+30
+00:01:54,980 --> 00:02:00,000
+these histograms that malignant tumors are generally larger in size than benign tumors.
+

@@ -1,0 +1,62 @@
+1
+00:00:00,339 --> 00:00:03,879
+Bem-vindo ao 1º estudo de caso
+da Introdução à Análise de Dados.
+
+2
+00:00:03,913 --> 00:00:07,418
+Nessa aula, você passará
+pelo processo de análise de dados
+
+3
+00:00:07,452 --> 00:00:08,967
+ao analisar
+um conjunto de dados
+
+4
+00:00:09,001 --> 00:00:10,664
+sobre as propriedades químicas
+de vinhos
+
+5
+00:00:10,698 --> 00:00:12,804
+e as leituras de qualidade
+associadas a elas.
+
+6
+00:00:12,838 --> 00:00:15,015
+Você também aprenderá
+a trabalhar com dados
+
+7
+00:00:15,049 --> 00:00:17,744
+usando Pandas, Numpy
+e Matplotlib.
+
+8
+00:00:17,778 --> 00:00:20,621
+Fazer com que dados
+se tornem adequados para análise
+
+9
+00:00:20,655 --> 00:00:22,661
+requer muito trabalho,
+
+10
+00:00:22,695 --> 00:00:25,542
+como limpeza, fish engineering
+e visualização,
+
+11
+00:00:25,576 --> 00:00:28,823
+e esses pacotes aumentam
+a agilidade e eficiência do trabalho
+
+12
+00:00:28,857 --> 00:00:30,225
+mais do que o Python padrão.
+
+13
+00:00:30,259 --> 00:00:31,665
+Vamos começar.
+

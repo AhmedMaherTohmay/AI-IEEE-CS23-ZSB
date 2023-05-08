@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:03,515
+Congratulations! You reached the end of the lesson.
+
+2
+00:00:03,515 --> 00:00:05,985
+You've gone through the entire data analysis process,
+
+3
+00:00:05,985 --> 00:00:08,580
+from posing questions to working with data using
+
+4
+00:00:08,580 --> 00:00:12,169
+Pandas and creating visualizations with Matplotlib.
+
+5
+00:00:12,169 --> 00:00:14,714
+With the basics of analyzing data in Python,
+
+6
+00:00:14,714 --> 00:00:18,750
+you've started your journey in data analysis with a solid foundation.
+
+7
+00:00:18,750 --> 00:00:20,379
+In the next two lessons,
+
+8
+00:00:20,379 --> 00:00:22,109
+we'll focus on going through this process in
+
+9
+00:00:22,109 --> 00:00:25,500
+more detail from start to finish on two data sets.
+
+10
+00:00:25,500 --> 00:00:27,364
+And, you learn more about Numpy,
+
+11
+00:00:27,364 --> 00:00:30,000
+Pandas and Matplotlib. See you there.
+

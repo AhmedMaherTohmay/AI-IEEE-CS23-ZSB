@@ -1,0 +1,4 @@
+1- watch the two videos
+2- solve the "communicate-quiz.ipynb" notebook and submit it 
+Note: "communicate-quiz.html" is the same notebook but as a webpage
+in case you want to have a glance without opening your pc.

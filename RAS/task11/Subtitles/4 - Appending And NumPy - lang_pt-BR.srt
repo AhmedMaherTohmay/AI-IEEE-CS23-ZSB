@@ -1,0 +1,225 @@
+1
+00:00:00,353 --> 00:00:02,605
+Para analisar os dados
+de modo eficiente,
+
+2
+00:00:02,639 --> 00:00:04,752
+vamos combinar os dados
+do tinto e do branco
+
+3
+00:00:04,786 --> 00:00:06,487
+em uma estrutura de dados.
+
+4
+00:00:06,521 --> 00:00:08,448
+Antes disso,
+precisamos adicionar
+
+5
+00:00:08,482 --> 00:00:10,879
+um novo recurso ou coluna
+a cada estrutura de dados
+
+6
+00:00:10,913 --> 00:00:13,758
+para indicar se o vinho
+é tinto ou branco.
+
+7
+00:00:13,792 --> 00:00:17,234
+Isso preservará essa característica
+para cada amostra
+
+8
+00:00:17,268 --> 00:00:19,306
+quando as estruturas de dados
+forem combinadas.
+
+9
+00:00:19,340 --> 00:00:22,925
+Uma maneira de fazer isso
+é criando um array usando NumPy
+
+10
+00:00:22,959 --> 00:00:25,696
+e o adicionando como uma coluna
+em cada estrutura de dados.
+
+11
+00:00:25,730 --> 00:00:29,058
+Vamos aprender sobre NumPy
+e como podemos usá-lo para isso.
+
+12
+00:00:29,515 --> 00:00:31,825
+NumPy é a abreviação
+de Python numérico
+
+13
+00:00:31,859 --> 00:00:35,007
+e é projetado para
+computação científica eficiente.
+
+14
+00:00:35,041 --> 00:00:37,853
+Foi construído com base
+na linguagem de programação C
+
+15
+00:00:37,887 --> 00:00:40,511
+que funciona em um nível mais baixo
+em nossos computadores.
+
+16
+00:00:40,545 --> 00:00:43,577
+Para entender o que isso significa
+para a velocidade do nosso código,
+
+17
+00:00:43,611 --> 00:00:45,794
+veja o link nas instruções.
+
+18
+00:00:45,828 --> 00:00:48,302
+Pandas é construído
+em cima de NumPy,
+
+19
+00:00:48,336 --> 00:00:52,637
+por isso os cálculos de funções
+como "descrever" são tão rápidos.
+
+20
+00:00:53,133 --> 00:00:55,995
+Se você tentar fazer esses cálculos
+em Python simples,
+
+21
+00:00:56,029 --> 00:00:58,833
+é muito mais lento.
+Por exemplo:
+
+22
+00:00:58,867 --> 00:01:02,873
+calcular a média de um array
+de 100 milhões de valores.
+
+23
+00:01:02,907 --> 00:01:07,636
+Isso gera um array de 100 milhões
+de floats aleatórios entre 0 e 1.
+
+24
+00:01:07,670 --> 00:01:11,090
+Também podemos digitar
+1e8 para esclarecer isso.
+
+25
+00:01:12,103 --> 00:01:14,919
+Parece que ele mostra um float,
+mas precisamos de um int.
+
+26
+00:01:14,953 --> 00:01:16,840
+Vamos ver quanto tempo demora
+para o Python padrão
+
+27
+00:01:16,874 --> 00:01:19,002
+calcular a média da array.
+
+28
+00:01:21,788 --> 00:01:24,136
+Um pouco mais de 9 segundos.
+
+29
+00:01:24,185 --> 00:01:26,275
+Agora vamos ver quanto tempo
+o NumPy demora.
+
+30
+00:01:28,531 --> 00:01:31,060
+Quase instantâneo.
+Não é legal?
+
+31
+00:01:31,094 --> 00:01:33,352
+Imagina como isso acelera
+o processo
+
+32
+00:01:33,386 --> 00:01:35,498
+quando mais cálculos
+são necessários.
+
+33
+00:01:35,532 --> 00:01:39,190
+Por exemplo, nós estamos projetando
+um novo recurso ou coluna
+
+34
+00:01:39,224 --> 00:01:42,483
+em que você calcula multiplicando
+os valores de duas colunas juntas
+
+35
+00:01:42,517 --> 00:01:45,507
+e divide pelos valores em outra
+para cada linha.
+
+36
+00:01:45,541 --> 00:01:49,795
+Diferente do NumPy, Python simples
+precisa dar uma volta enorme
+
+37
+00:01:49,829 --> 00:01:53,196
+por todas as linhas para calcular
+o novo valor de cada linha.
+
+38
+00:01:53,230 --> 00:01:55,521
+O principal objeto
+que trabalhamos em NumPy
+
+39
+00:01:55,555 --> 00:01:57,551
+é um array
+de valores multidimensional
+
+40
+00:01:57,585 --> 00:02:00,467
+de tipos de dados iguais.
+Esses arrays,
+
+41
+00:02:00,501 --> 00:02:03,015
+junto com várias funções úteis
+em NumPy,
+
+42
+00:02:03,049 --> 00:02:05,786
+aperfeiçoa e simplifica
+operações com dados.
+
+43
+00:02:05,820 --> 00:02:08,295
+Vamos aprender mais sobre
+arrays em NumPy depois.
+
+44
+00:02:08,329 --> 00:02:09,730
+Na próxima parte,
+
+45
+00:02:09,764 --> 00:02:12,492
+você vai usar NumPy para criar
+um array de uma nova coluna de cor
+
+46
+00:02:12,526 --> 00:02:14,467
+para as estruturas de dados
+do tinto e do branco.
+

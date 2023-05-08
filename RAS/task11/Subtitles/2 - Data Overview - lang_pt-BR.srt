@@ -1,0 +1,83 @@
+1
+00:00:00,000 --> 00:00:03,267
+Nessa aula, vamos analisar
+dois conjuntos de dados.
+
+2
+00:00:03,301 --> 00:00:06,535
+Um de amostras de vinho tinto
+e outro de vinho branco
+
+3
+00:00:06,569 --> 00:00:09,211
+do norte de Portugal.
+Cada amostra
+
+4
+00:00:09,245 --> 00:00:11,535
+vem com uma classificação
+de qualidade de 1 a 10,
+
+5
+00:00:11,569 --> 00:00:14,083
+e o resultado de vários
+testes físico-químicos.
+
+6
+00:00:14,471 --> 00:00:16,224
+Pode parecer
+uma expressão difícil,
+
+7
+00:00:16,258 --> 00:00:18,503
+mas só significa
+que vamos analisar propriedades
+
+8
+00:00:18,537 --> 00:00:20,645
+como a quantidade de álcool,
+o nível de acidez,
+
+9
+00:00:20,679 --> 00:00:22,231
+e o açúcar residual.
+
+10
+00:00:22,265 --> 00:00:24,656
+Aqui estão os conjuntos de dados
+em um Jupyter Notebook.
+
+11
+00:00:24,690 --> 00:00:28,579
+Um de amostras de vinho tinto,
+e outro de vinho branco.
+
+12
+00:00:28,613 --> 00:00:30,578
+Excluindo
+a coluna do índice,
+
+13
+00:00:30,612 --> 00:00:33,428
+temos 11 colunas
+para as propriedades químicas,
+
+14
+00:00:33,462 --> 00:00:35,865
+e uma coluna
+para as classificações de qualidade.
+
+15
+00:00:35,899 --> 00:00:39,041
+Se você fosse o dono de um vinhedo
+ou de uma loja de vinhos
+
+16
+00:00:39,075 --> 00:00:42,327
+e recebesse esses dados
+de quase 5.000 amostras de vinho,
+
+17
+00:00:42,361 --> 00:00:43,667
+como você usaria?
+

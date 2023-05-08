@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:01,725
+Now that you've cleaned your data,
+
+2
+00:00:01,725 --> 00:00:04,814
+you can find patterns in your data by creating plots.
+
+3
+00:00:04,815 --> 00:00:07,259
+Histograms and scatterplots can help you
+
+4
+00:00:07,259 --> 00:00:10,769
+determine which variables will be used in analysis.
+
+5
+00:00:10,769 --> 00:00:15,134
+For example, you can plot a histogram to view the distribution of temperatures,
+
+6
+00:00:15,134 --> 00:00:20,230
+or a scatterplot to view the relationship between temperature and energy output.
+
+7
+00:00:20,230 --> 00:00:22,250
+This correlation looks strong,
+
+8
+00:00:22,250 --> 00:00:25,160
+so we will probably be using this feature in our analysis.
+

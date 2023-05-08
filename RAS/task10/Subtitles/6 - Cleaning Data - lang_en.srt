@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:04,139
+After assessing, you often need to fix problems in your data.
+
+2
+00:00:04,139 --> 00:00:08,625
+Common problems include incorrect data types, missing data, duplicates,
+
+3
+00:00:08,625 --> 00:00:13,620
+and structural problems, such as different column names in CSV files for the same data,
+
+4
+00:00:13,619 --> 00:00:16,294
+or mismatch number of records.
+
+5
+00:00:16,295 --> 00:00:20,040
+Fortunately, Pandas has useful functions that can help with these issues.
+

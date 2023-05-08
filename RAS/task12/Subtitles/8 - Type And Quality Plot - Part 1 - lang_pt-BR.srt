@@ -1,0 +1,208 @@
+1
+00:00:00,167 --> 00:00:02,233
+Agora que chegamos
+a algumas conclusões,
+
+2
+00:00:02,267 --> 00:00:04,867
+podemos criar visualizações
+para exibir nossas descobertas
+
+3
+00:00:04,900 --> 00:00:07,433
+sobre a ligação entre
+a qualidade do vinho
+
+4
+00:00:07,467 --> 00:00:09,267
+e diferentes propriedades.
+
+5
+00:00:09,300 --> 00:00:10,836
+Já importei para o Pandas
+
+6
+00:00:10,869 --> 00:00:13,365
+e carreguei os dados editados
+sobre qualidade do vinho.
+
+7
+00:00:13,398 --> 00:00:15,767
+Vamos incluir a declaração inline
+do Matplotlib
+
+8
+00:00:15,800 --> 00:00:18,000
+para visualizar gráficos
+no nosso documento.
+
+9
+00:00:19,067 --> 00:00:21,700
+Vamos criar visualizações
+para nos ajudar a entender
+
+10
+00:00:21,733 --> 00:00:24,133
+se certo tipo de vinho,
+tinto ou branco,
+
+11
+00:00:24,167 --> 00:00:26,400
+está associado
+com maior qualidade.
+
+12
+00:00:26,433 --> 00:00:28,700
+Em seções anteriores,
+usamos a função "agrupar"
+
+13
+00:00:28,733 --> 00:00:30,900
+para encontrar a média
+da qualidade de cada tipo.
+
+14
+00:00:30,933 --> 00:00:34,033
+Vamos usar esses resultados
+nessa visualização.
+
+15
+00:00:35,133 --> 00:00:37,100
+Para isso,
+podemos adicionar gráficos
+
+16
+00:00:37,133 --> 00:00:38,900
+no final
+da declaração agrupada.
+
+17
+00:00:38,933 --> 00:00:41,267
+Podemos especificar parâmetros
+para o título,
+
+18
+00:00:41,300 --> 00:00:44,200
+e cores e transparências
+nas barras.
+
+19
+00:00:48,167 --> 00:00:50,300
+Vamos criar
+uma lista separada por cores
+
+20
+00:00:50,333 --> 00:00:51,900
+para deixar mais claro.
+
+21
+00:00:55,691 --> 00:00:57,902
+Isso faz sentido.
+Quando temos várias cores,
+
+22
+00:00:57,935 --> 00:01:00,233
+queremos um gráfico
+com vários tempos.
+
+23
+00:01:01,133 --> 00:01:02,900
+Na visualização final,
+
+24
+00:01:02,933 --> 00:01:06,100
+devemos designar rótulos
+para os eixos X e Y.
+
+25
+00:01:06,133 --> 00:01:09,700
+E não queremos que a barra branca
+desapareça no fundo branco.
+
+26
+00:01:09,733 --> 00:01:13,033
+Nesse momento,
+não podemos usar apenas o Pandas.
+
+27
+00:01:13,067 --> 00:01:14,767
+Vamos adicionar o Matplotlib.
+
+28
+00:01:14,800 --> 00:01:18,733
+Pyplot é o módulo do Matplotlib
+que usaremos para criar gráficos.
+
+29
+00:01:18,767 --> 00:01:22,467
+Normalmente, importamos
+e mudamos o nome para PLT.
+
+30
+00:01:23,069 --> 00:01:25,133
+Vamos importar
+Seaborn também.
+
+31
+00:01:26,100 --> 00:01:28,467
+O nome padrão de Seaborn
+é SNS.
+
+32
+00:01:28,500 --> 00:01:30,600
+Mesmo se não usar Seaborn
+diretamente,
+
+33
+00:01:30,633 --> 00:01:32,633
+ele adiciona
+outros formatos ao seu gráfico
+
+34
+00:01:32,667 --> 00:01:36,067
+que fazem dele mais bonito
+do que o padrão do Matplotlib.
+
+35
+00:01:36,100 --> 00:01:39,100
+Informações adicionais
+podem ser encontradas abaixo.
+
+36
+00:01:39,933 --> 00:01:41,733
+Agora que temos Matplotlib,
+
+37
+00:01:41,767 --> 00:01:44,300
+podemos colocar os rótulos
+nos eixos X e Y.
+
+38
+00:01:49,867 --> 00:01:51,233
+Nosso gráfico
+está mais bonito,
+
+39
+00:01:51,267 --> 00:01:53,500
+e a parte branca
+não se mistura com o fundo.
+
+40
+00:01:53,533 --> 00:01:54,900
+Isso funciona,
+
+41
+00:01:54,933 --> 00:01:57,933
+mas a 1ª linha de código
+é muito longa e difícil de ler.
+
+42
+00:01:57,967 --> 00:02:01,291
+Vamos atribuir a declaração
+de agrupamento a outro objeto.
+
+43
+00:02:01,324 --> 00:02:04,990
+Isso não mudará a visualização.
+Só facilita a nossa vida.
+

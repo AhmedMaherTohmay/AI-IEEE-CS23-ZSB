@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:03,266
+In this lesson, we'll be analyzing two datasets.
+
+2
+00:00:03,266 --> 00:00:08,279
+One, on red wine samples and the other on white wine samples from the north of Portugal.
+
+3
+00:00:08,279 --> 00:00:10,539
+Each wine sample comes with a quality rating from one to ten,
+
+4
+00:00:10,539 --> 00:00:14,609
+and results from several physical chemical tests.
+
+5
+00:00:14,609 --> 00:00:16,309
+That may sound like a big word,
+
+6
+00:00:16,309 --> 00:00:19,594
+but it just means we'll be analyzing properties like alcohol content,
+
+7
+00:00:19,594 --> 00:00:22,244
+acidity level, and residual sugar.
+
+8
+00:00:22,245 --> 00:00:24,810
+Here are the two data sets in a Jupyter notebook.
+
+9
+00:00:24,810 --> 00:00:28,315
+One at the red wine samples, and one of the white.
+
+10
+00:00:28,315 --> 00:00:30,358
+Not including the index column,
+
+11
+00:00:30,358 --> 00:00:33,320
+there are 11 columns describing their chemical properties,
+
+12
+00:00:33,320 --> 00:00:36,140
+and a column for the quality ratings.
+
+13
+00:00:36,140 --> 00:00:39,509
+If you are the owner of a vineyard or a wine store and you're given
+
+14
+00:00:39,509 --> 00:00:43,420
+this data on almost 5,000 wine samples, how might you use it?
+

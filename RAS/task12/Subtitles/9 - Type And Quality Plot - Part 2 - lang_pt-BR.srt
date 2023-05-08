@@ -1,0 +1,149 @@
+1
+00:00:00,357 --> 00:00:03,271
+Embora a visualização nos mostre
+que as amostras de vinho branco
+
+2
+00:00:03,305 --> 00:00:05,782
+têm uma qualidade média
+um pouco melhor,
+
+3
+00:00:05,816 --> 00:00:09,655
+seria legal termos 
+mais detalhes sobre isso.
+
+4
+00:00:09,689 --> 00:00:11,799
+Vamos criar um gráfico de barras
+mais detalhado,
+
+5
+00:00:11,833 --> 00:00:14,233
+usando "count" por cor
+para cada classificação de qualidade.
+
+6
+00:00:14,267 --> 00:00:17,210
+Podemos agrupar
+por qualidade e cor para fazer isso.
+
+7
+00:00:21,612 --> 00:00:22,989
+Como isso é uma contagem ("count"),
+
+8
+00:00:23,023 --> 00:00:25,571
+o valor de todas as colunas
+será o mesmo.
+
+9
+00:00:25,605 --> 00:00:27,730
+Então vamos escolher
+um arbitrário.
+
+10
+00:00:32,243 --> 00:00:33,343
+Essa foi perto,
+
+11
+00:00:33,377 --> 00:00:35,830
+mas outras coisas podem
+melhorar esse gráfico.
+
+12
+00:00:35,864 --> 00:00:38,854
+Primeiro, temos mais amostras
+brancas do que tintas.
+
+13
+00:00:38,888 --> 00:00:41,576
+Então é difícil ter
+uma comparação justa só com isso.
+
+14
+00:00:41,610 --> 00:00:42,776
+Para equilibrar,
+
+15
+00:00:42,810 --> 00:00:47,166
+vamos dividir cada uma
+pelo total da cor e usar proporção.
+
+16
+00:00:49,450 --> 00:00:50,891
+Agora está melhor.
+
+17
+00:00:50,925 --> 00:00:53,608
+Nas menores classificações,
+3, 4 e 5,
+
+18
+00:00:53,642 --> 00:00:55,672
+amostras de tinto
+tem proporção maior.
+
+19
+00:00:55,706 --> 00:00:58,512
+Nas maiores, 6, 7, 8, e 9,
+
+20
+00:00:58,546 --> 00:01:00,799
+amostras de branco
+tem proporção maior.
+
+21
+00:01:00,833 --> 00:01:02,495
+Esses dados parecem ótimos,
+
+22
+00:01:02,529 --> 00:01:05,152
+mas os rótulos no eixo X
+estão bagunçados,
+
+23
+00:01:05,186 --> 00:01:07,555
+e seria melhor que classificações
+das amostras de tinto e branco
+
+24
+00:01:07,589 --> 00:01:09,509
+ficassem
+uma do lado da outra.
+
+25
+00:01:09,543 --> 00:01:11,354
+E não temos lugar para o número
+de amostras de vinho tinto
+
+26
+00:01:11,388 --> 00:01:13,461
+com classificação de qualidade
+igual a 9.
+
+27
+00:01:13,495 --> 00:01:16,411
+Embora esse número seja 0,
+ainda precisamos colocar isso.
+
+28
+00:01:16,445 --> 00:01:19,177
+Como muita customização
+parece ser necessária,
+
+29
+00:01:19,211 --> 00:01:20,983
+faria mais sentido
+fazer o gráfico
+
+30
+00:01:21,017 --> 00:01:23,161
+direto no Matplotlib
+ao invés do Pandas.
+
+31
+00:01:23,195 --> 00:01:26,200
+Antes de continuarmos,
+aprenderemos mais sobre Matplotlib.
+
